@@ -11,6 +11,11 @@
       Foreign keys: 4
     Code
       dm_packed_nested <- dm_nest_tbl(dm_packed, tf_2)
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 4 of `x` matches multiple rows.
+    Code
       dm_packed_nested
     Output
       -- Metadata --------------------------------------------------------------------

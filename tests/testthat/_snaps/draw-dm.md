@@ -11,6 +11,10 @@
 
     Code
       dm_get_data_model(dm_for_filter(), column_types = TRUE)
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 19 of `x` matches multiple rows.
     Output
       $tables
         table segment display

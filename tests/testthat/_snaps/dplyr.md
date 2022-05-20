@@ -528,6 +528,10 @@
         dm_rename(flights, flights.month = month) %>%
         dm_rename(flights, flights.day = day) %>%
         dm_rename(flights, flights.hour = hour)
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 6 of `x` matches multiple rows.
     Output
       [1] 1800
     Code
@@ -542,6 +546,10 @@
         dm_rename(flights, flights.month = month) %>%
         dm_rename(flights, flights.day = day) %>%
         dm_rename(flights, flights.hour = hour)
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 6 of `x` matches multiple rows.
     Output
       [1] 1761
     Code
@@ -556,6 +564,10 @@
         dm_rename(flights, flights.month = month) %>%
         dm_rename(flights, flights.day = day) %>%
         dm_rename(flights, flights.hour = hour)
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 6 of `x` matches multiple rows.
     Output
       [1] 1761
     Code
@@ -570,6 +582,10 @@
         dm_rename(flights, flights.month = month) %>%
         dm_rename(flights, flights.day = day) %>%
         dm_rename(flights, flights.hour = hour)
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 6 of `x` matches multiple rows.
     Output
       [1] 1800
     Code

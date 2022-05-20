@@ -2,6 +2,11 @@
 
     Code
       packed <- json_pack_join(df1, df2, by = "key")
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 1 of `x` matches multiple rows.
+    Code
       packed
     Output
       # A tibble: 3 x 3
@@ -27,6 +32,11 @@
 
     Code
       nested <- json_nest_join(df1, df2, by = "key")
+    Condition
+      Warning:
+      Each row in `x` can match at most 1 row in `y`.
+      i Row 1 of `x` matches multiple rows.
+    Code
       nested
     Output
       # A tibble: 2 x 3
